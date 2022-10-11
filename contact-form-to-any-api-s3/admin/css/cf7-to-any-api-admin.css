@@ -1,0 +1,23 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+.post-type-cf7_to_any_api .cf7anyapi_full_width {width: 100%; grid-column: 1 / -1; }
+.post-type-cf7_to_any_api .cf7anyapi_full_width code { width: 100%; display: grid; margin-bottom: 10px; }
+.post-type-cf7_to_any_api #cf7anyapi-setting h2.hndle.ui-sortable-handle {font-size: 16px !important; }
+.post-type-cf7_to_any_api .cf7anyapi_wrap {margin: 0; display: grid; padding: 20px 12px; gap: 15px; grid-template-columns: 1fr 1fr; }
+.post-type-cf7_to_any_api .cf7anyapi_wrap .cf7anyapi_field {display: flex; flex-direction: column; gap: 8px; }
+.post-type-cf7_to_any_api .cf7anyapi_wrap .cf7anyapi_field input, .cf7anyapi_wrap .cf7anyapi_field select {height: 40px; box-shadow: 0px 6px 10px rgb(0 0 0 / 20%);}  
+.post-type-cf7_to_any_api .cf7anyapi_wrap .cf7anyapi_field label {font-size: 16px; font-weight: 700; text-transform: capitalize; }
+.post-type-cf7_to_any_api #poststuff .inside {margin: 0; padding: 0; }
+.post-type-cf7_to_any_api div#cf7anyapi-form-fields {font-size: 18px; padding: 8px 0; margin: 0; line-height: 1.4; }
+.post-type-cf7_to_any_api div#cf7anyapi-form-fields {grid-column: 1/-1; display: grid; grid-template-columns: 1fr 1fr; gap: 15px; } 
+.post-type-cf7_to_any_api select:focus, .wp-core-ui input:focus { box-shadow: none !important; }
+
+
+@media screen and (max-width:782px){
+    .post-type-cf7_to_any_api div#cf7anyapi-form-fields { grid-template-columns: 1fr;}
+    .post-type-cf7_to_any_api div#cf7anyapi_admin {  grid-template-columns: 1fr; }
+}

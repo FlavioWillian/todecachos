@@ -151,7 +151,7 @@ class Cf7_To_Any_Api_S3 {
 		$this->loader->add_action('save_post',$plugin_admin,'cf7anyapi_update_settings',10,2);
 		$this->loader->add_action('wp_ajax_cf7_to_any_api_get_form_field',$plugin_admin,'cf7_to_any_api_get_form_field_function');
 		//$this->loader->add_action('wpcf7_mail_sent',$plugin_admin,'cf7_to_any_api_send_data_to_api');
-        $this->loader->add_action('wpcf7_before_send_mail',$plugin_admin,'cf7_to_any_api_send_data_to_api');
+        	$this->loader->add_action('wpcf7_before_send_mail',$plugin_admin,'cf7_to_any_api_send_data_to_api');
 		$this->loader->add_action('admin_menu', $plugin_admin, 'cf7anyapi_register_submenu', 90);
 	}
 
